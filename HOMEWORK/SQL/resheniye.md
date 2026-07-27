@@ -88,4 +88,4 @@ LIMIT 1;
 
 **Вывод Запроса:**
 
-![Скриншот вывода запроса](Scrins/resheniye3.png)
+![Скриншот вывода запроса](Scrins/resheniye.3.png)
