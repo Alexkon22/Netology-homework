@@ -49,10 +49,9 @@ HAVING COUNT(cu.customer_id) > 300;
 
 ```sql
 SELECT 
-    store_id,
-    COUNT(customer_id) AS customer_count
-FROM customer
-GROUP BY store_id;
+  COUNT(*) AS films_longer_than_average
+FROM film
+WHERE length > (SELECT AVG(length) FROM film);
 ```
 </details>
 
