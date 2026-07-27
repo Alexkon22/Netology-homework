@@ -31,3 +31,5 @@ GROUP BY st.store_id, s.first_name, s.last_name, c.city
 HAVING COUNT(cu.customer_id) > 300;
 ```
 </details>
+
+![Скриншот вывода запроса](Scrins/resheniye1.png)
