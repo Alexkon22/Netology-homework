@@ -42,3 +42,18 @@ HAVING COUNT(cu.customer_id) > 300;
 
  * Получите количество фильмов, продолжительность которых больше средней продолжительности всех фильмов.
 </details>
+
+#### Решение 
+<details>
+<summary><b>Текст запроса</b> (нажмите, чтобы раскрыть)</summary>
+
+```sql
+SELECT 
+    store_id,
+    COUNT(customer_id) AS customer_count
+FROM customer
+GROUP BY store_id;
+```
+</details>
+
+
