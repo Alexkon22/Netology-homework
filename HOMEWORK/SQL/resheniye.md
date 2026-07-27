@@ -32,4 +32,6 @@ HAVING COUNT(cu.customer_id) > 300;
 ```
 </details>
 
+**Вывод Запроса:**
+
 ![Скриншот вывода запроса](Scrins/resheniye1.png)
