@@ -13,6 +13,6 @@
 | 2 | **ELK** |       ✅ Выполнено              | [Решение](HOMEWORK/ELK/Resheniye.md) |
 | 3 | **Расширенные возможности SQL**|✅ Выполнено | [Решение](HOMEWORK/SQL/resheniye.md)
 
-</details>HOMEWORK/SQL/resheniye.md
+</details>
   
 
