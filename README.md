@@ -12,7 +12,9 @@
 | 1 | **Базы Данных и их Типы** | ✅ Выполнено | [Решение](HOMEWORK/Databases/Resheniye.md) |
 | 2 | **ELK** |       ✅ Выполнено              | [Решение](HOMEWORK/ELK/Resheniye.md) |
 | 3 | **Расширенные возможности SQL**|✅ Выполнено | [Решение](HOMEWORK/SQL/resheniye.md)
+| 4|  **Реплекация и Масштабирование часть 2 |✅ Выполнено | [Решение](HOMEWORK//resheniye.md)
 
 </details>
+
   
 
