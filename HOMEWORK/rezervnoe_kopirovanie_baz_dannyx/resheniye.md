@@ -72,3 +72,32 @@
 на нужный временной интервал 
 
   </details>
+
+
+## Задание 2
+
+<details><summary><b> Текст Задания.</b> (нажмите, чтобы раскрыть)</summary>
+<br>
+
+С помощью официальной документации приведите пример команды резервирования данных и восстановления БД (pgdump/pgrestore).
+
+</details>
+
+## Решение 
+
+<details><summary><b> Текст Команд.</b> (нажмите, чтобы раскрыть)</summary>
+<br>
+
+ * команда для резервирования 
+ 
+ ```bash
+pg_dump mydb > db.sql
+pg_dump -Fc mydb > db.dump
+```
+* команда для восстановления
+
+```bash
+psql -X -d newdb -f db.sql
+pg_restore -C -d postgres db.dump
+```
+  
