@@ -100,4 +100,23 @@ pg_dump -Fc mydb > db.dump
 psql -X -d newdb -f db.sql
 pg_restore -C -d postgres db.dump
 ```
-  
+</details>
+
+
+
+## Задание 3
+
+<details><summary><b> Текст Задания.</b> (нажмите, чтобы раскрыть)</summary>
+<br>
+С помощью официальной документации приведите пример команды инкрементного резервного копирования базы данных MySQL
+
+</details>
+
+
+## Решение 
+<details><summary><b> Текст Команд.</b> (нажмите, чтобы раскрыть)</summary>
+<br>
+```bash
+mysqladmin -u root -p flush-logs
+```
+</details>
