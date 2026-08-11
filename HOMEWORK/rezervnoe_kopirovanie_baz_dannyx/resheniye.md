@@ -116,7 +116,9 @@ pg_restore -C -d postgres db.dump
 ## Решение 
 <details><summary><b> Текст Команд.</b> (нажмите, чтобы раскрыть)</summary>
 <br>
-```bash
+
+ ```bash
 mysqladmin -u root -p flush-logs
+
 ```
 </details>
