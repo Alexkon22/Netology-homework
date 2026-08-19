@@ -74,6 +74,7 @@ https://www.exploit-db.com/exploits/16320
 
 
 Приведите ответ в свободной форме.
+</details>
 
  ## Решение 
 
@@ -97,6 +98,8 @@ https://www.exploit-db.com/exploits/16320
 | **Xmas** (`-sX`)   | нет ответа    | `RST`         |
 | **UDP** (`-sU`)    | данные или нет ответа | `ICMP Port Unreachable` |
 
+
+</details>
 
 
 
