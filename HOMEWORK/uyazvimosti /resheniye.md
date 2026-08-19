@@ -53,3 +53,24 @@ https://www.exploit-db.com/exploits/16320
 
 * **Apache HTTPD 2.2.8 Range Header DoS (порт 80)**
  https://www.exploit-db.com/exploits/18221
+
+</details>
+
+ ## Задание 2. 
+  <details><summary><b> Текст Задания.</b> (нажмите, чтобы раскрыть)</summary>
+<br>
+
+* Проведите сканирование Metasploitable в режимах
+    * SYN
+    * FIN
+    * Xmas
+    * UDP
+* Запишите сеансы сканирования в Wireshark
+
+Ответьте на следующие вопросы:
+
+* Чем отличаются эти режимы сканирования с точки зрения сетевого трафика?
+* Как отвечает сервер?
+
+
+Приведите ответ в свободной форме.
