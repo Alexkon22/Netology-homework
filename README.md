@@ -13,9 +13,7 @@
 | 2 | **ELK** |       ✅ Выполнено              | [Решение](HOMEWORK/ELK/Resheniye.md) |
 | 3 | **Расширенные возможности SQL**|✅ Выполнено | [Решение](HOMEWORK/SQL/resheniye.md)
 | 4|  **Реплекация и Масштабирование часть 2** |✅ Выполнено | [Решение](HOMEWORK/Replekaciya%20i%20Masshtabirovanie%20chast%202/resheniye.md)
-
-
-
+|5|   **Уязвимости и атаки на информационные системы**
 </details>
 
   
