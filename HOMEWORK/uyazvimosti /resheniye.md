@@ -24,3 +24,32 @@
   </details>
 
   ---
+
+  ## Решение 
+
+<details><summary><b> Текст Решения.</b> (нажмите, чтобы раскрыть)</summary>
+<br>
+
+**Разрешенные Сетевые службы** 
+
+* FTP (21) 
+* SSH (22) 
+* Telnet (23)
+* SMTP (25)
+* DNS (53)
+* HTTP (80)
+* RPCBind (111)
+* Samba/NetBIOS (139- 445)
+* Exec (512)
+* Login (513)
+* Shell (514)
+
+**Найденные уязвимости**
+* **vsftpd 2.3.4 Backdoor Command Execution (порт 21)**
+   https://www.exploit-db.com/exploits/17491
+
+* **Samba "username map script" Command Execution (порты 139/445)**
+https://www.exploit-db.com/exploits/16320
+
+* **Apache HTTPD 2.2.8 Range Header DoS (порт 80)**
+ https://www.exploit-db.com/exploits/18221
