@@ -120,10 +120,9 @@ https://www.exploit-db.com/exploits/16320
 
 </details>
 
-### Скриншоты Дампа Тафика 
-<details><summary><b> (нажмите, чтобы раскрыть)</summary>
-<br>
+---
 
+### Скриншоты Дампа Тафика 
 
 
 
