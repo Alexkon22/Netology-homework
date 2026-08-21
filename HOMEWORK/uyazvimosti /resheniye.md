@@ -43,6 +43,15 @@
 * Exec (512)
 * Login (513)
 * Shell (514)
+* Java RMI (1099)
+* Bindshell (1524)
+* NFS (2049)
+* FTP (2121) 
+* MySQL (3306)
+
+
+
+
 
 **Найденные уязвимости**
 * **vsftpd 2.3.4 Backdoor Command Execution (порт 21)**
