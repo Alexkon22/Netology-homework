@@ -48,7 +48,9 @@
 * NFS (2049)
 * FTP (2121) 
 * MySQL (3306)
+---
 
+[HOMEWORK/uyazvimosti/scrins/Screenshot_1.png
 
 
 
