@@ -124,6 +124,11 @@ https://www.exploit-db.com/exploits/16320
 
 ### Скриншоты Дампа Тафика 
 
+<details>
+<summary><b>Скриншот 1: SYN-пакет (запрос от атакующего)</b></summary>
+
+![SYN пакет](/scrins/syn.png)
+
 
 
 
