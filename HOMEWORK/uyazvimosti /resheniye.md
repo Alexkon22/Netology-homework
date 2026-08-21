@@ -50,7 +50,7 @@
 * MySQL (3306)
 ---
 
-[HOMEWORK/uyazvimosti/scrins/Screenshot_1.png
+![скриншотN-Map](scrins/Screenshot_1.png)
 
 
 
