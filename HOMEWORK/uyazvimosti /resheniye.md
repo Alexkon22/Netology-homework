@@ -126,9 +126,34 @@ https://www.exploit-db.com/exploits/16320
 
 <details>
 <summary><b>Скриншот 1: SYN-пакет (запрос от атакующего)</b></summary>
+  
+ ![SYN пакет](scrins/syn.png)
+ </details>
 
-![SYN пакет](/scrins/syn.png)
+<details>
+
+ <summary><b>Скриншот 2: SYN-ACK ответ (сервер подтверждает открытый порт 22)</b></summary>
+
+![SYN-ACK ответ](scrins/syn_ack.png)
+</details>
+
+<details>
+<summary><b>Скриншот 3: FIN-пакет (запрос от атакующего)</b></summary>
+
+![FIN пакет](scrins/fin.png)
 
 
+</details>
 
+<details>
+<summary><b>Скриншот 4: Xmas-пакет (запрос от атакующего)</b></summary>
+
+![Xmas пакет](scrins/xmass.png)
+
+</details>
+
+<details>
+<summary><b>Скриншот 5: ICMP Port Unreachable (ответ сервера на закрытый UDP-порт)</b></summary>
+
+![ICMP Port Unreachable](scrins/udp.png)
 
