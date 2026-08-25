@@ -14,7 +14,8 @@
 | 3 | **Расширенные возможности SQL**|✅ Выполнено | [Решение](HOMEWORK/SQL/resheniye.md)
 | 4|  **Реплекация и Масштабирование часть 2** |✅ Выполнено | [Решение](HOMEWORK/Replekaciya%20i%20Masshtabirovanie%20chast%202/resheniye.md)
 |5|   **Резервное копирование баз данных**      |✅ Выполнено | [Решение](HOMEWORK/rezervnoe_kopirovanie_baz_dannyx/resheniye.md)
-|6|   **Уязвимости и атаки на информационные системы**|✅ Выполнено |[Решение](HOMEWORK/uyazvimosti/%resheniye.md) 
+|6|   **Уязвимости и атаки на информационные системы**|✅ Выполнено |[Решение](HOMEWORK/zashhita-seti/resheniye.md)
+/resheniye.md
 </details> 
 
 
