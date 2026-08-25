@@ -241,6 +241,7 @@ Suricata обнаружила множественные попытки подк
 <details><summary><b> Скрин логовSuricata </b> (нажмите, чтобы раскрыть)</summary>
 <br>
 
- ![Скриншот вывода команды](scrins/logf.sur.png)
+ 
+ ![Скриншот вывода команды](scrins/log.sur.png)
 
 </details>
