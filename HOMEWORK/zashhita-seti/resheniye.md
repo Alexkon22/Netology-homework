@@ -46,6 +46,7 @@
 
  2.TCP Connect Scan (-sT)
 Команда:```sudo nmap -sT 192.168.200.74```
+
 ![Скриншот вывода команды](scrins/st.png)
 
 
