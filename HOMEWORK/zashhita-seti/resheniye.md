@@ -209,11 +209,16 @@ Suricata обнаружила множественные попытки подк
 </details>
 
 ## Решение 
-<details><summary><b> Текст Решения  </b> (нажмите, чтобы раскрыть)</summary>
+<details><summary><b> Настройка Hydra </b> (нажмите, чтобы раскрыть)</summary>
 <br>
 
 * Настройка hydra:
      *  создайте два файла: users.txt и pass.txt;
 
   ![Скриншот вывода команды](scrins/pass.png)
+</details>
+
+
+<details><summary><b> Запуск Hydra </b> (нажмите, чтобы раскрыть)</summary>
+<br>
 
