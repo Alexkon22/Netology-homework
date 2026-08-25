@@ -232,3 +232,15 @@ Suricata обнаружила множественные попытки подк
  ![Скриншот вывода команды](scrins/ban.ip.png)
 
  ![Скриншот вывода команды](scrins/logf2.png)
+
+</details>
+
+
+
+
+<details><summary><b> Скрин логовSuricata </b> (нажмите, чтобы раскрыть)</summary>
+<br>
+
+ ![Скриншот вывода команды](scrins/logf.sur.png)
+
+</details>
