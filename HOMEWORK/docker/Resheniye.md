@@ -106,3 +106,12 @@
 
 
 
+ #### Пункт 2
+
+- <details>
+  <summary><strong>Решение</strong></summary>
+
+  ![Скрин второго пункта](scrins/docker_2.png)
+
+  </details>
+
