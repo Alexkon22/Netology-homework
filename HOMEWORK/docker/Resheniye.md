@@ -115,3 +115,22 @@
 
   </details>
 
+
+ #### Пункт 3
+
+- <details>
+  <summary><strong>Решение</strong></summary>
+
+  ![Скрин третьего пункта](scrins/docker_3.png)
+
+  </details>
+
+
+ #### Пункт 4
+
+- <details>
+  <summary><strong>Решение</strong></summary>
+
+  ![Скрин четвёртого пункта](scrins/docker_4.png)
+
+  </details>
