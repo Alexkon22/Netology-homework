@@ -239,4 +239,19 @@ curl http://127.0.0.1:80 ; curl http://127.0.0.1:81
   ![Скрин проблемы](scrins/docker_8.png)
 
   </details>
+
+
+
+  #### Пункт 11
+
+- <details>
+   <summary><strong>Решение</strong></summary>
+    
+   удаление контейнера происходит командой **`docker rm -f custom-nginx-t2`**
+   просмотр контейнеров происходит командой **`docker ps -a`**
+  
+
+  ![Скрин удаления](scrins/docker_9.png)
+
+  </details>
    
