@@ -51,3 +51,12 @@
 
 </details>
 
+## Решение1
+
+
+<details>
+<summary><strong>Ссылка на решение </strong></summary>
+
+[Docker Hub — custom-nginx](https://hub.docker.com/repository/docker/alcost/custom-nginx/general)
+
+</details>
