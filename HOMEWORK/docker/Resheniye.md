@@ -95,5 +95,11 @@
 ### Решение2
 
 
-<details>
-<summary><strong>Скриншоты Решения</strong></summary>
+   #### Пункт 1
+
+- <details>
+     <summary><strong>Скриншот Решения</strong></summary>
+
+
+
+
