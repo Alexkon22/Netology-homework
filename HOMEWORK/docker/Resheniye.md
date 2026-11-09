@@ -6,7 +6,7 @@
 
 
 
-# Задача 1
+### Задача 1
 
 <details>
 <summary><strong>Текст Задачи </strong></summary>
@@ -51,7 +51,7 @@
 
 </details>
 
-## Решение1
+### Решение1
 
 
 <details>
@@ -60,3 +60,35 @@
 [Docker Hub — custom-nginx](https://hub.docker.com/repository/docker/alcost/custom-nginx/general)
 
 </details>
+
+- - - 
+
+
+
+### Задача 2
+
+<details>
+<summary><strong> Текст Задачи </strong></summary>
+
+1. Запустите ваш образ `custom-nginx:1.0.0` командой `docker run` в соответствии с требованиями:
+
+   - Имя контейнера: `ФИО-custom-nginx-t2`
+   - Контейнер работает в фоновом режиме.
+   - Контейнер опубликован на порту хост-системы `127.0.0.1:8080`.
+
+2. Не удаляя контейнер, переименуйте его в `custom-nginx-t2`.
+
+3. Выполните команду:
+
+   ```bash
+   date +"%d-%m-%Y %T.%N %Z" ; sleep 0.150 ; docker ps ; ss -tlpn | grep 127.0.0.1:8080  ; docker logs custom-nginx-t2 -n1 ; docker exec -it custom-nginx-t2 base64 /usr/share/nginx/html/index.html
+   ```
+
+4. Убедитесь с помощью `curl` или веб-браузера, что индекс-страница доступна.
+
+**Результат выполнения:**
+
+В качестве ответа приложите скриншоты консоли, где видно все введённые команды и их вывод.
+
+</details>
+
