@@ -92,3 +92,8 @@
 
 </details>
 
+### Решение2
+
+
+<details>
+<summary><strong>Скриншоты Решения</strong></summary>
