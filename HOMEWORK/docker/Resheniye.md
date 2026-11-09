@@ -212,4 +212,17 @@ curl http://127.0.0.1:80 ; curl http://127.0.0.1:81
 
   </details>
 
+#### Пункты 5-7
 
+- <details>
+  <summary><strong>Решение</strong></summary>
+
+   * вход в интерактивный терминал контейнера  осуществляется командой  **`docker exec -it custom-nginx-t2 bash`**
+   * установка редактора  nano   осуществляется командой   **`apt-get install -y nano`**
+   *  правка конфига  осуществляется командой  **`nano /etc/nginx/conf.d/default.conf`**
+ 
+  ![Скрин выполнения ](scrins/docker_7.png)
+
+   </details>
+   
+   
