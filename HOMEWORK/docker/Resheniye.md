@@ -201,15 +201,15 @@ curl http://127.0.0.1:80 ; curl http://127.0.0.1:81
    #### Пункт 4
 
 - <details>
-  <summary><strong>Решение</strong></summary>
+   <summary><strong>Решение</strong></summary>
 
   для   перезапуска  и просмотра  состояния  контейнера
    используются команды 
    **`docker start custom-nginx-t2`**
+    **`docker ps`**
 
-     **`docker ps`**
+  ![Скрин состояния](scrins/docker_6.png)
 
-![Скрин состояния](scrins/docker_6.png)
-  
+  </details>
 
 
