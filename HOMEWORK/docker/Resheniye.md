@@ -98,8 +98,11 @@
    #### Пункт 1
 
 - <details>
-     <summary><strong>Скриншот Решения</strong></summary>
+  <summary><strong>Решение</strong></summary>
 
+  ![Скрин первого пункта](scrins/docker_1.png)
+
+  </details>
 
 
 
