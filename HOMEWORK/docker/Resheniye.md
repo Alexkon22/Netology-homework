@@ -496,5 +496,13 @@ services:
    ![Скрин деплоя1](scrins/linux_8.png)
 
    ![Скрин деплоя2](scrins/linux_9.png)
-  
-   
+
+  </details>
+
+
+   #### Пункт 6
+
+- <details>
+  <summary><strong> Скрин Решения </strong></summary>
+ 
+ ![Скрин ](scrins/linux_10.png)
