@@ -529,6 +529,10 @@ services:
    * **`docker compose up -d --remove-orphans`**
    * **`docker ps`**
    * **`docker compose down`**
+     проект погашен одной командой  **`docker compose down`**
+
+     эта команда удалила контейнер registry и сеть task5_default
+  
    ![Скрин](scrins/linux_13.png)
-</details>
+ </details>
   
