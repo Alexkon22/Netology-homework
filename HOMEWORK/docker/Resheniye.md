@@ -295,5 +295,20 @@ curl http://127.0.0.1:80 ; curl http://127.0.0.1:81
 
  </details>
 
+ #### Пункты 3-5
+
+- <details>
+  <summary><strong>Решение</strong></summary>
+   
+   * команда  создания файла внутри  centos   **`docker exec centos-t4 bash -c 'echo "Test centos" > /data/from-centos.txt'`**
+   * команда создания файла  на хостовой машине  **`echo "Test host" > ~/zadaniye4/from-host.txt`**
+   * команда показывает из debian какие фаилы лежат в /data  **`docker exec debian-t4 ls -la /data`**
+   * команда показывает содержимое файлов из  debian **`docker exec debian-t4 bash -c 'cat /data/*.txt'`**
+   
+   ![Скрин команд](scrins/linux_3.png)
+
+  </details>
+
+
 
 
