@@ -413,17 +413,42 @@ services:
         ports:
           - "5000:5000"
     ```
- на скрине видно что запустился  Portainer это произошло поточу что когда указываешь  **`docker compose up -d`**  без указания  имени файла 
+ 
+  на скрине видно что запустился  Portainer это произошло поточу что когда указываешь  **`docker compose up -d`**  без указания  имени файла 
   compouse  сам ищет файл  с одним из стандартных имён 
   порядок поиска 
   * compose.yaml
   * compose.yml
   * docker-compose.yaml
   * docker-compose.yml
-исходя из этого берется первый найденный файл и запускается  
+ исходя из этого берется первый найденный файл и запускается  
 
 
   ![Скрин команд](scrins/linux_4.png)
 
-  </details>
 
+</details>
+
+
+#### Пункт 2
+
+- <details>
+  <summary><strong>Решение</strong></summary>
+
+  Для того чтобы запустились оба контейнера, нужно отредактировать файл **`compose.yaml`** и добавить ключ **`include`**, указав в нём `docker-compose.yaml`.
+
+  Тогда Compose подключает второй файл и запускает сервисы из обоих файлов: `portainer` и `registry`.
+
+  ```yaml
+  include:
+    - docker-compose.yaml
+
+  services:
+    portainer:
+      network_mode: host
+      image: portainer/portainer-ce:latest
+      volumes:
+        - /var/run/docker.sock:/var/run/docker.sock
+  ```
+
+  ![Скрин команд](scrins/linux_5.png)
