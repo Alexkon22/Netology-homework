@@ -281,18 +281,19 @@ curl http://127.0.0.1:80 ; curl http://127.0.0.1:81
 
   запуск контейнеров из образов происходит следующими командами
 
- **`docker run -d --name centos-t4 -v $(pwd):/data centos:7 sleep infinity`**
+  **`docker run -d --name centos-t4 -v $(pwd):/data centos:7 sleep infinity`**
 
-  ![Скрин centos](scrins/linux_1.png)
+   ![Скрин centos](scrins/linux_1.png)
 
  
- **`docker run -d --name debian-t4 -v $(pwd):/data debian sleep infinity`**
+
+  **`docker run -d --name debian-t4 -v $(pwd):/data debian sleep infinity`**
 
   
 
-  ![Скрин Debian](scrins/linux_2.png)
+   ![Скрин Debian](scrins/linux_2.png)
 
-  </details>
+ </details>
 
 
 
