@@ -482,7 +482,7 @@ services:
 #### Пункт 4
 
 - <details>
-  <summary><strong>скрин Админки </strong></summary>
+  <summary><strong>Скрин Решения </strong></summary>
 
   ![Скрин админки](scrins/linux_7.png)
 
@@ -491,7 +491,7 @@ services:
 #### Пункт 5
 
 - <details>
-  <summary><strong> Скрины Деплоя </strong></summary>
+  <summary><strong> Скрин Решения </strong></summary>
   
    ![Скрин деплоя1](scrins/linux_8.png)
 
