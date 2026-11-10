@@ -477,3 +477,5 @@ services:
   </details>
 
   ![Скрин команд](scrins/linux_6.png)
+
+</details>
