@@ -499,10 +499,11 @@ services:
 
   </details>
 
-
-   #### Пункт 6
+ #### Пункт 6
 
 - <details>
   <summary><strong> Скрин Решения </strong></summary>
  
- ![Скрин ](scrins/linux_10.png)
+  ![Скрин ](scrins/linux_10.png)
+ 
+  </details>
