@@ -485,4 +485,16 @@ services:
   <summary><strong>скрин Админки </strong></summary>
 
   ![Скрин админки](scrins/linux_7.png)
+
+  </details>
+
+#### Пункт 5
+
+- <details>
+  <summary><strong> Скрины Деплоя </strong></summary>
   
+   ![Скрин деплоя1](scrins/linux_8.png)
+
+   ![Скрин деплоя2](scrins/linux_9.png)
+  
+   
