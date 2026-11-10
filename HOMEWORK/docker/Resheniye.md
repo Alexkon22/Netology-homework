@@ -478,3 +478,11 @@ services:
   ![Скрин команд](scrins/linux_6.png)
 
   </details>
+
+#### Пункт 4
+
+- <details>
+  <summary><strong>скрин Админки </strong></summary>
+
+  ![Скрин админки](scrins/linux_7.png)
+  
