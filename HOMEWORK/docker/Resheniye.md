@@ -511,4 +511,23 @@ services:
 #### Пункт 7
 
 - <details>
-  <summary><strong> Скрин Решения </strong></summary>
+  <summary><strong>Решение</strong></summary>
+
+  После удаления `compose.yaml` и повторного запуска `docker compose up -d` появилось предупреждение о контейнере-сироте (orphan container) `task5-portainer-1`.
+
+  Сервис `portainer` был описан в удалённом `compose.yaml` поэтому в текущей конфигурации проекта его больше нет.
+
+  Но контейнер продолжает работать и по-прежнему считается частью проекта `task5`.
+
+  Compose не удаляет такие контейнеры самостоятельно и предлагает запустить команду с флагом `--remove-orphans` чтобы убрать контейнеры которых нет в Compose-файле.
+
+  ![Скрин](scrins/linux_11.png)
+
+выполнение  команд 
+* **`docker compose up -d --remove-orphans`**
+* **`docker ps`**
+* **`docker compose down`**
+![Скрин](scrins/linux_13.png)
+
+  </details>
+  
