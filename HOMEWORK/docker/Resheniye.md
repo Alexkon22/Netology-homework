@@ -507,3 +507,8 @@ services:
   ![Скрин ](scrins/linux_10.png)
  
   </details>
+
+#### Пункт 7
+
+- <details>
+  <summary><strong> Скрин Решения </strong></summary>
