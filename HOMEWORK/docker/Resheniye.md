@@ -377,6 +377,8 @@ services:
 
 </details>
 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#### Решение 
 
  #### Пункт 1
 
@@ -523,11 +525,10 @@ services:
 
   ![Скрин](scrins/linux_11.png)
 
-выполнение  команд 
-* **`docker compose up -d --remove-orphans`**
-* **`docker ps`**
-* **`docker compose down`**
-![Скрин](scrins/linux_13.png)
-
-  </details>
+  выполнение  команд 
+   * **`docker compose up -d --remove-orphans`**
+   * **`docker ps`**
+   * **`docker compose down`**
+   ![Скрин](scrins/linux_13.png)
+</details>
   
