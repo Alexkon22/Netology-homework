@@ -375,5 +375,55 @@ services:
 
  В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод, файл compose.yaml , скриншот portainer c задеплоенным компоузом.
 
+</details>
 
+
+ #### Пункт 1
+
+- <details>
+  <summary><strong>Решение</strong></summary>
+
+  - Команда для создания папки:
+
+    **`mkdir -p /tmp/netology/docker/task5 && cd /tmp/netology/docker/task5`**
+
+  - Команда для создания файла `compose.yaml`:
+
+    **`nano compose.yaml`**
+
+    ```yaml
+    version: "3"
+    services:
+      portainer:
+        network_mode: host
+        image: portainer/portainer-ce:latest
+        volumes:
+          - /var/run/docker.sock:/var/run/docker.sock
+    ```
+
+  - Команда для создания файла `docker-compose.yaml`:
+
+    **`nano docker-compose.yaml`**
+
+    ```yaml
+    version: "3"
+    services:
+      registry:
+        image: registry:2
+        ports:
+          - "5000:5000"
+    ```
+ на скрине видно что запустился  Portainer это произошло поточу что когда указываешь  **`docker compose up -d`**  без указания  имени файла 
+  compouse  сам ищет файл  с одним из стандартных имён 
+  порядок поиска 
+  * compose.yaml
+  * compose.yml
+  * docker-compose.yaml
+  * docker-compose.yml
+исходя из этого берется первый найденный файл и запускается  
+
+
+  ![Скрин команд](scrins/linux_4.png)
+
+  </details>
 
