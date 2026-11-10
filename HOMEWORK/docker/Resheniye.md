@@ -474,8 +474,7 @@ services:
 
   Новый образ при этом не создаётся: оба имени указывают на один и тот же `IMAGE ID`.
 
-  </details>
 
   ![Скрин команд](scrins/linux_6.png)
 
-</details>
+  </details>
