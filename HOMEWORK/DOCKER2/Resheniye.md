@@ -65,8 +65,37 @@
 ### Решение 1
 
 <details>
-<summary><strong>Решение1</strong></summary>
+<summary><strong>Пункт1</strong></summary>
 
- ссылка на репозиторий  
-
+ ссылка на форк репозитория https://github.com/Alexkon22/shvirtd-example-python
 </details>
+
+<details>
+<summary><strong>Пункт2</strong></summary>
+
+
+```dockerfile
+# Этап 1: сборка зависимостей
+FROM python:3.12-slim AS builder
+WORKDIR /app
+COPY requirements.txt .
+RUN python -m venv /opt/venv && \
+    /opt/venv/bin/pip install --no-cache-dir -r requirements.txt
+
+# Этап 2: готовый образ
+FROM python:3.12-slim
+WORKDIR /app
+COPY --from=builder /opt/venv /opt/venv
+ENV PATH="/opt/venv/bin:$PATH"
+COPY . .
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "5000"]
+```
+
+![multistage](scrins/docker2_2_build_multistage.png)
+
+Образ `shvirtd-web:v2` собирается в два этапа с помощью multistage-сборки.
+Сначала на этапе `builder` устанавливаются все необходимые зависимости из `requirements.txt` в виртуальное окружение `/opt/venv`.
+Затем в финальный образ копируются готовое виртуальное окружение и код приложения. Благодаря этому в итоговом образе остаётся только то, что нужно для запуска приложения, и он получается легче и чище.
+
+
+
