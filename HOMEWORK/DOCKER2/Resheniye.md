@@ -26,4 +26,8 @@
 ### Решение 0
 
 <details>
-<summary><strong>Текст Задачи</strong></summary>
+<summary><strong>Скрин Выполнения Команд</strong></summary>
+
+![Скриншот](scrins/docker_0.png)
+
+</details>
