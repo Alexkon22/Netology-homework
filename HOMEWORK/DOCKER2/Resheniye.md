@@ -65,14 +65,41 @@
 ### Решение 1
 
 <details>
-<summary><strong>Пункт1</strong></summary>
+<summary><strong>Пункт 1</strong></summary>
 
- ссылка на форк репозитория https://github.com/Alexkon22/shvirtd-example-python
+Ссылка на форк репозитория: https://github.com/Alexkon22/shvirtd-example-python
+
 </details>
 
 <details>
-<summary><strong>Пункт2</strong></summary>
+<summary><strong>Пункт 2</strong></summary>
 
+Создан файл `.dockerignore`, чтобы в образ не попадали лишние файлы и секреты (`.env`):
+
+```
+.git
+.gitignore
+.env
+*.pdf
+README.md
+LICENSE
+Dockerfile*
+compose.yaml
+proxy.yaml
+nginx
+haproxy
+```
+
+Для запуска используется `CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "5000"]` (последняя строка в `Dockerfile.python`).
+
+Проверка сборки: благодаря `.dockerignore` контекст сборки уменьшился со 151.87kB до 377B, а слои с зависимостями взялись из кэша (CACHED).
+
+![Скриншот](scrins/docker_2.png)
+
+</details>
+
+<details>
+<summary><strong>Пункт 2.1</strong></summary>
 
 ```dockerfile
 # Этап 1: сборка зависимостей
@@ -94,8 +121,7 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "5000"]
 ![Скриншот](scrins/docker_1.png)
 
 Образ `shvirtd-web:v2` собирается в два этапа с помощью multistage-сборки.
-Сначала на этапе `builder` устанавливаются все необходимые зависимости из `requirements.txt` в виртуальное окружение `/opt/venv`
-Затем в готовый образ копируются готовое виртуальное окружение и код приложения исходя из этого в итоговом образе остаётся только то что нужно для запуска приложения и он получается легче и чище
+Сначала на этапе `builder` устанавливаются все необходимые зависимости из `requirements.txt` в виртуальное окружение `/opt/venv`.
+Затем в готовый образ копируются виртуальное окружение и код приложения. Благодаря этому в итоговом образе остаётся только то, что нужно для запуска приложения, и он получается легче и чище.
 
-
-
+</details>
