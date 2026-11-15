@@ -91,7 +91,7 @@ COPY . .
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "5000"]
 ```
 
-![multistage](scrins/docker2_2_build_multistage.png)
+![Скриншот](scrins/docker_1.png)
 
 Образ `shvirtd-web:v2` собирается в два этапа с помощью multistage-сборки.
 Сначала на этапе `builder` устанавливаются все необходимые зависимости из `requirements.txt` в виртуальное окружение `/opt/venv`.
