@@ -191,7 +191,7 @@ docker logs <container_name>
    В качестве ответа приложите скриншот SQL-запроса.
 </details>
 
-### Решение 1
+### Решение 3
 
 <details>
 <summary><strong> Скрин SQl Запроса</strong></summary>
