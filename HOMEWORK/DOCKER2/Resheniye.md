@@ -294,3 +294,12 @@ docker ps
  ![Скриншот сайта проверки ](scrins/docker_6.png)
 
 </details>
+
+
+<details>
+<summary><strong>Пункт6 </strong></summary>
+
+ скриншот SQL запроса
+
+ ![Скриншот SQL запроса ](scrins/docker_7.png)
+
