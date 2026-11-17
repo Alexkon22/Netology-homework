@@ -14,7 +14,7 @@
    sudo apt  install docker-compose  # version 1.25.0-1
 
    See 'snap info docker' for additional versions.
-
+```
 
 В случае наличия установленного в системе docker-compose - удалите его.
 
@@ -162,7 +162,7 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "5000"]
 
    ```bash
    curl -L http://127.0.0.1:8090
-
+ ```
 
 должна возвращать в качестве ответа время и локальный IP-адрес.
 
@@ -201,6 +201,7 @@ docker logs <container_name>
 
 
 </details>
+
 
 ### Задача 4
 
