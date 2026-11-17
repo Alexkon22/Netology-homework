@@ -41,3 +41,10 @@
 
 </details>
    
+### Решение 1 
+
+details>
+<summary><strong> Скриншот вывода версии </strong></summary>
+
+
+
