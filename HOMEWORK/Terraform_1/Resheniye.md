@@ -65,3 +65,10 @@
 
 содержимое созданного ресурса random_password `random_password` хранится в ключе `result`:
 `"result": "8L1hIyNei1b0NM4P"`
+
+ ![Скриншот кода](scrin/Ter_3.png)
+</details>
+
+
+<details>
+<summary><strong> Пункт4</strong></summary>
