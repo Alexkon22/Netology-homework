@@ -44,7 +44,7 @@
 </details>
    
 
-### Решение 1 
+### Решение 
 <details>
 <summary><strong> Скриншот Версии</strong></summary>
 
@@ -52,3 +52,16 @@
 
 </details>
 
+<details>
+<summary><strong> Пункт2</strong></summary>
+
+Секреты допустимо хранить в файле  `personal.auto.tfvars` он указан в `.gitignore` (`# own secret vars store`) и не попадёт в репозиторий  на GitHub 
+так как git его не отслеживает 
+</details>
+
+
+<details>
+<summary><strong> Пункт3</strong></summary>
+
+содержимое созданного ресурса random_password `random_password` хранится в ключе `result`:
+`"result": "8L1hIyNei1b0NM4P"`
