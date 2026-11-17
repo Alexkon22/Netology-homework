@@ -321,6 +321,7 @@ docker ps
 ### Решение 6
 <details>
 <summary><strong> Скрины Решения</strong></summary>
-скачивание образа 
 
- ![Скачивание Образа ](scrins/docker_8.png)
+ * скачивание образа 
+
+    ![Скачивание Образа ](scrins/docker_8.png)
