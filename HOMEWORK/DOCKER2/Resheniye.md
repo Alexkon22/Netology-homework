@@ -205,7 +205,7 @@ docker logs <container_name>
 ### Задача 4
 
 <details>
-<summary><strong>Задача 4</strong></summary>
+<summary><strong> Текст Задачи</strong></summary>
 
 1. Запустите в Yandex Cloud ВМ (вам хватит 2 Гб RAM).
 
@@ -231,3 +231,11 @@ docker logs <container_name>
 
 
 </details>
+
+
+### Решение 4
+
+<details>
+<summary><strong>Пункт 1</strong></summary>
+
+
