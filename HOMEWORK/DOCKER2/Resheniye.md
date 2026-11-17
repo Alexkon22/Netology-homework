@@ -333,3 +333,9 @@ docker ps
 * окно  SAVE
 
 ![ окно SAVE ](scrins/docker_10.png)
+
+
+
+* окно  Распаковки 
+
+![ окно Распоковки  ](scrins/docker_12.png)
