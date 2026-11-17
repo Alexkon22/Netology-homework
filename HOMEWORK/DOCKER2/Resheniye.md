@@ -319,3 +319,7 @@ docker ps
 </details>
 
 ### Решение 6
+<details>
+<summary><strong> Скрины Решения</strong></summary>
+скачивание образа 
+
