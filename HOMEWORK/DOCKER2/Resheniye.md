@@ -286,3 +286,11 @@ docker ps
 </details>
 
 
+<details>
+<summary><strong>Пункт 4</strong></summary>
+
+ скриншот  сайта проверки 
+
+ ![Скриншот сайта проверки ](scrins/docker_6.png)
+
+</details>
