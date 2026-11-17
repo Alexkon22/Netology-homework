@@ -238,4 +238,7 @@ docker logs <container_name>
 <details>
 <summary><strong>Пункт 1</strong></summary>
 
+ скриншот созданной вирт машины в  Yandex Claud
+
+ ![Скриншот Виртуалки](scrins/docker_4.png)
 
