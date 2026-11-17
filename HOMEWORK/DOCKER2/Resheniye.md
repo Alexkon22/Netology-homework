@@ -242,3 +242,14 @@ docker logs <container_name>
 
  ![Скриншот Виртуалки](scrins/docker_4.png)
 
+</details>
+
+
+<details>
+<summary><strong>Пункт2</strong></summary>
+
+ скриншот  установленного docker 
+
+ ![Скриншот docker](scrins/docker_5.png)
+
+</details>
