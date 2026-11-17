@@ -303,3 +303,6 @@ docker ps
 
  ![Скриншот SQL запроса ](scrins/docker_7.png)
 
+ Ссылка на форк репозитория: https://github.com/Alexkon22/shvirtd-example-python
+
+</details>
