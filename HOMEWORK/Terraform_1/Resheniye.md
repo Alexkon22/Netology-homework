@@ -72,11 +72,15 @@
 
 <details>
 <summary><strong> Пункт4</strong></summary>
- После раскомментирования `terraform validate`  обнаружились две ошибки 
+ 
+После раскомментирования `terraform validate`  обнаружились  следующие ошибки 
+1. `Missing name for resource` — у ресурса `docker_image` не было имени. В Terraform каждый ресурс описывается двумя метками: тип и имя (`resource "тип" "имя"`) Имя нужно, чтобы ссылаться на ресурс из других блоков Контейнер обращается к образу как `docker_image.nginx` поэтому я добавил имя `nginx`
 
-1. `Missing name for resource` — у ресурса `docker_image` не было имени так как в  Terraform каждый ресурс описывается двумя метками тип и имя (`resource "тип" "имя"`) Имя нужно чтобы ссылаться на ресурс из других блоков контейнер обращается к образу как `docker_image.nginx` поэтому  добавил имя `nginx`.
+2. `Invalid resource name` — имя контейнера `1nginx` начинается с цифры а имя ресурса должно начинаться с буквы или `_`. Имя исправил на `nginx`
 
-2. `Invalid resource name` —  так как имя контейнера `1nginx` начинается с цифры а имя ресурса должно начинаться с буквы или `_`  имя исправил на `nginx`.
+3. `Reference to undeclared resource` — в имени контейнера была ссылка на `random_password.random_string_FAKE`  такого ресурса нет пароль объявлен как `random_password.random_string` Убрал `_FAKE`
+
+4. `resulT` — неправильный регистр Terraform различает большие и маленькие буквы атрибут называется `result` Исправил на `result`.
 
 </details>
 
