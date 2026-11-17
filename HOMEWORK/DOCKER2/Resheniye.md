@@ -329,3 +329,7 @@ docker ps
 
 * окно DIVE
 ![ окно DIVE ](scrins/docker_9.png)
+
+* окно  SAVE
+
+![ окно SAVE ](scrins/docker_10.png)
