@@ -322,4 +322,4 @@ docker ps
 <details>
 <summary><strong> Скрины Решения</strong></summary>
 скачивание образа 
-
+![Скачивание Образа ](scrins/docker_8.png)
