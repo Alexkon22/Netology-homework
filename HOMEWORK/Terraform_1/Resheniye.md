@@ -45,7 +45,10 @@
    
 
 ### Решение 1 
-
 <details>
-<summary><strong> Скриншот Версии</strong></summary
+<summary><strong> Скриншот Версии</strong></summary>
+
 ![Скриншот Версии](scrin/Ter_1.png)
+
+</details>
+
