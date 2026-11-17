@@ -45,3 +45,4 @@
 
 <details>
 <summary><strong> Скриншот Версии</strong></summary
+![Скриншот Версии](scrin/Ter_1.png)
