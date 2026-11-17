@@ -325,3 +325,7 @@ docker ps
  * скачивание образа 
 
     ![Скачивание Образа ](scrins/docker_8.png)
+
+
+* окно DIVE
+![ окно DIVE ](scrins/docker_9.png)
