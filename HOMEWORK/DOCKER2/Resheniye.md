@@ -306,3 +306,16 @@ docker ps
  Ссылка на форк репозитория: https://github.com/Alexkon22/shvirtd-example-python
 
 </details>
+
+### Задача 6
+
+<details>
+<summary><strong>Текст Задачи</strong></summary>
+
+Скачайте Docker-образ `hashicorp/terraform:latest` и скопируйте бинарный файл `/bin/terraform` на свою локальную машину, используя `dive` и `docker save`.
+
+Предоставьте скриншоты выполненных действий.
+
+</details>
+
+### Решение 6
