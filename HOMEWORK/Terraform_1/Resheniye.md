@@ -111,6 +111,6 @@ resource "docker_container" "nginx" {
  </details>
 
 <details>
-<summary><strong> Пункт5</strong></summary>
+<summary><strong> Пункт6</strong></summary>
 
 </details>
