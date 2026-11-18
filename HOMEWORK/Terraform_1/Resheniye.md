@@ -110,3 +110,7 @@ resource "docker_container" "nginx" {
 ![Скриншот кода](scrin/Ter_4.png)
  </details>
 
+<details>
+<summary><strong> Пункт5</strong></summary>
+
+</details>
