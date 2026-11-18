@@ -84,3 +84,29 @@
 
 </details>
 
+
+<details>
+<summary><strong> Пункт5</strong></summary>
+Фрагмент кода 
+
+```hcl
+resource "docker_image" "nginx" {
+  name         = "nginx:latest"
+  keep_locally = true
+}
+
+resource "docker_container" "nginx" {
+  image = docker_image.nginx.image_id
+  name  = "example_${random_password.random_string.result}"
+
+  ports {
+    internal = 80
+    external = 9090
+  }
+}
+```
+ скриншот вывода команды 
+
+![Скриншот кода](scrin/Ter_4.png)
+ </details>
+
