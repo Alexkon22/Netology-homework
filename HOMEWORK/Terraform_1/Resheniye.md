@@ -126,5 +126,19 @@ resource "docker_container" "nginx" {
 <details>
 <summary><strong> Пункт7</strong></summary>
 
+ содержимое файла ```terraform.tfstate```
+
+```json
+{
+  "version": 4,
+  "terraform_version": "1.12.2",
+  "serial": 14,
+  "lineage": "3ae445a8-442d-a034-d6eb-dad2e1646745",
+  "outputs": {},
+  "resources": [],
+  "check_results": null
+}
+```
+ ![Скриншот кода](scrin/Ter_7.png)
 
 </details>
