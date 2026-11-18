@@ -113,4 +113,18 @@ resource "docker_container" "nginx" {
 <details>
 <summary><strong> Пункт6</strong></summary>
 
+Команда ```auto-approve``` применяет изменения сразу без вопроса ```yes``` и без проверки плана Если в коде ошибка Terraform её тоже применит может удалить или пересоздать то что не нужно У меня он без спроса удалил старый контейнер и создал новый (1 destroyed). На рабочем сервере так можно случайно снести нужное.
+
+
+
+
+![Скриншот кода](scrin/Ter_5.png)
+
+
+</details>
+
+<details>
+<summary><strong> Пункт7</strong></summary>
+
+
 </details>
