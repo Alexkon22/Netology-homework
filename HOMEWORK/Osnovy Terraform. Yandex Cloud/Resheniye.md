@@ -51,8 +51,6 @@
 
 
 
-   
-
 </details>
 
 
@@ -60,7 +58,7 @@
 #### Задание 2 
 
 <details>
-<summary><strong>Текст задания 2</strong></summary>
+<summary><strong>Текст задания </strong></summary>
 
 1. Замените все хардкод-**значения** для ресурсов **yandex_compute_image** и **yandex_compute_instance** на **отдельные** переменные. К названиям переменных ВМ добавьте в начало префикс **vm_web_**. Пример: **vm_web_name**.
 2. Объявите нужные переменные в файле `variables.tf`, обязательно указывайте тип переменной. Заполните их **default** прежними значениями из `main.tf`.
@@ -130,7 +128,7 @@
 ####  Решение 4
 
 <details>
-<summary><strong>Текст Решения 4 </strong></summary>
+<summary><strong>Текст Решения  </strong></summary>
 
 Создал файл `outputs.tf` с одним output `vms_info` в котором для каждой ВМ выводятся `instance_name` `external_ip` и `fqdn` без ХАРДКОДА 
 
@@ -138,3 +136,27 @@
 
 
 </details>
+
+#### Задание 5
+<details>
+<summary><b> Текст задания </b></summary>
+
+1. В файле `locals.tf` опишите в **одном** local-блоке имя каждой ВМ, используйте интерполяцию `${..}` с **несколькими** переменными по примеру из лекции.
+2. Замените переменные внутри ресурса ВМ на созданные вами local-переменные.
+3. Примените изменения.
+
+</details>
+
+
+####  Решение 5
+
+<details>
+<summary><strong>Текст Решения  </strong></summary>
+
+Создал `locals.tf` с одним блоком `locals`. Имена вирт машин собираются из нескольких переменных (компания окружение проект роль) через интерполяцию `${..}` В ресурсах  вирт машин заменил `var.vm_web_name` и `var.vm_db_name` на `local.vm_web_name` и `local.vm_db_name` `terraform plan` показал `No changes`
+
+![Terraform вывод](scrin/ter_6.png)
+
+
+</details>
+
