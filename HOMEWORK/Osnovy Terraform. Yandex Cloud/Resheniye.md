@@ -32,8 +32,7 @@
 <summary> Текст Решения </summary>
 
 суть ошибок заключается в следующем 
- * Суть ошибок:
-
+ 
 1. `platform_id = "standart-v4"` — опечатка в слове `standard` и платформы `v4` в Yandex Cloud не существует Исправил на `standard-v1`.
 2. `cores = 1` — платформа `standard-v1` поддерживает только 2 или 4 ядра Исправил на `cores = 2`.
 3. `preemptible = true` — прерываемая виртуальная машина Облако может остановить её в любой момент если ресурсы понадобятся другим и в любом случае останавливает её через 24 часа Зато она в несколько раз дешевле обычной.
@@ -91,7 +90,7 @@
 <summary><b>Текст Задания </b></summary>
 
 1. Создайте в корне проекта файл `vms_platform.tf`. Перенесите в него все переменные первой ВМ.
-2. Скопируйте блок ресурса и создайте с его помощью вторую ВМ в файле `main.tf`: **"netology-develop-platform-db"**, `cores = 2`, `memory = 2`, `core_fraction = 20`. Объявите её переменные с префиксом `vm_db_` в том же файле (`vms_platform.tf`). ВМ должна работать в зоне `"ru-central1-b"`.
+2. Скопируйте блок ресурса и создайте с его помощью вторую ВМ в файле `main.tf`: **"netology-develop-platform-db"**, `cores = 2`, `memory = 2`, `core_fraction = 20`. Объявите её переменные с префиксом `vm_db_` в том же файле (`vms_platform.tf`). ВМ должна работать в зоне `"ru-central1-b"`
 3. Примените изменения.
 
 </details>
@@ -105,7 +104,7 @@
 
 1. Создал файл `vms_platform.tf` и перенёс в него все переменные первой ВМ (`vm_web_`).
 2. Объявил переменные второй ВМ с префиксом `vm_db_` в том же файле и добавил в `main.tf` ресурс `netology-develop-platform-db` (cores = 2, memory = 2, core_fraction = 20).
-3. Зона `ru-central1-b` в Yandex Cloud закрыта (ошибка `Zone ru-central1-b is not available`) поэтому вторая ВМ развёрнута в зоне `ru-central1-d в этой зоне нет платформы `standard-v1` использована `standard-v3`
+3. Зона `ru-central1-b` в Yandex Cloud закрыта (ошибка `Zone ru-central1-b is not available`) поэтому вторая ВМ развёрнута в зоне `ru-central1-d` в этой зоне нет платформы `standard-v1` использована `standard-v3`
 4. Для второй ВМ создал отдельную подсеть `develop-db` (`10.0.2.0/24`) потому что подсеть в Yandex Cloud привязана к одной зоне.
 
 **Скриншот**
@@ -226,8 +225,8 @@
 
 1. Объединил переменные `cores` `memory` `core_fraction` обеих ВМ в одну переменную `vms_resources` типа `map(object)` с ключами `web` и `db` В ресурсах используется `var.vms_resources["web"]cores` 
 2. Создал общую для всех ВМ переменную `metadata` (`serial-port-enable` и `ssh-keys`) Её значение с ssh-ключом хранится в `personal.auto.tfvars` который не попадает в git В ресурсах указано `metadata = var.metadata`
-3. Закомментировал неиспользуемые переменные: `vm_web_/vm_db_` `cores `memory` `core_fraction` `name` а также `vms_ssh_root_key`
-4. `terraform plan` показал `No changes
+3. Закомментировал неиспользуемые переменные: `vm_web_/vm_db_` `cores` `memory` `core_fraction` `name` а также `vms_ssh_root_key`
+4. `terraform plan` показал `No changes`
 
 ![terraform plan](scrin/ter_7.png)
 
