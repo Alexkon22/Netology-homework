@@ -132,6 +132,9 @@
 <details>
 <summary><strong>Текст Решения 4 </strong></summary>
 
+Создал файл `outputs.tf` с одним output `vms_info` в котором для каждой ВМ выводятся `instance_name` `external_ip` и `fqdn` без ХАРДКОДА 
+
+![terraform вывод](scrin/ter_5.png)
 
 
 </details>
