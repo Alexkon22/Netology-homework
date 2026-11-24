@@ -1,7 +1,7 @@
 
 ### Кононенко Александр Владимирович Домашнее задание к занятию «Основы Terraform. Yandex Cloud»
 
-#### Задание 1 
+### Задание 1 
 
 
 
@@ -24,6 +24,8 @@
 - ответы на вопросы.
 
 </details>
+
+---
 
 #### Решение 1 
 <details>
@@ -53,9 +55,10 @@
 
 </details>
 
+---
 
 
-#### Задание 2 
+### Задание 2 
 
 <details>
 <summary><strong>Текст задания </strong></summary>
@@ -66,6 +69,7 @@
 
 </details>
 
+---
 
 #### Решение 2
 <details>
@@ -78,9 +82,9 @@
 
 </details>
 
+---
 
-
-#### Задание 3 
+### Задание 3 
 
 
 <details>
@@ -92,9 +96,9 @@
 
 </details>
 
+---
 
-
-####  Решение 3
+#### Решение 3
 
 <details>
 <summary><strong>Текст Решения </strong></summary>
@@ -110,9 +114,9 @@
 
 </details>
 
+---
 
-
-#### Задание 4
+### Задание 4
 
 <details>
 <summary><b>Текст Задания</b></summary>
@@ -124,8 +128,9 @@
 
 </details>
 
+---
 
-####  Решение 4
+#### Решение 4
 
 <details>
 <summary><strong>Текст Решения  </strong></summary>
@@ -137,7 +142,9 @@
 
 </details>
 
-#### Задание 5
+--- 
+
+### Задание 5
 <details>
 <summary><b> Текст задания </b></summary>
 
@@ -148,7 +155,7 @@
 </details>
 
 
-####  Решение 5
+#### Решение 5
 
 <details>
 <summary><strong>Текст Решения  </strong></summary>
@@ -159,4 +166,68 @@
 
 
 </details>
+
+---
+
+##  Задание 6
+<details>
+<summary><b> Текст задания </b></summary>
+
+1. Вместо использования трёх переменных `.._cores`, `.._memory`, `.._core_fraction` в блоке `resources {...}` объедините их в единую map-переменную **`vms_resources`** и внутри неё конфиги обеих ВМ в виде вложенного `map(object)`.
+
+   Пример из `terraform.tfvars`:
+
+   ```hcl
+   vms_resources = {
+     web = {
+       cores         = 2
+       memory        = 2
+       core_fraction = 5
+       hdd_size      = 10
+       hdd_type      = "network-hdd"
+       ...
+     },
+     db = {
+       cores         = 2
+       memory        = 4
+       core_fraction = 20
+       hdd_size      = 10
+       hdd_type      = "network-ssd"
+       ...
+     }
+   }
+   ```
+
+2. Создайте и используйте отдельную `map(object)` переменную для блока `metadata`, она должна быть **общая** для всех ваших ВМ.
+
+   Пример из `terraform.tfvars`:
+
+   ```hcl
+   metadata = {
+     serial-port-enable = 1
+     ssh-keys           = "ubuntu:ssh-ed25519 AAAAC..."
+   }
+   ```
+
+3. Найдите и закомментируйте все более не используемые переменные проекта.
+4. Проверьте `terraform plan`. Изменений быть не должно.
+
+</details>
+
+---
+
+
+
+#### Решение 5
+
+<details>
+<summary><strong>Текст Решения  </strong></summary>
+
+
+
+
+
+</details>
+
+
 
