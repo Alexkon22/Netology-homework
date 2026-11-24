@@ -67,3 +67,13 @@
 3. Проверьте `terraform plan`. Изменений быть не должно.
 
 </details>
+
+
+#### Решение 2
+<details>
+<summary><strong>Текст Решения </strong></summary>
+
+
+Заменил все хардкод-значения для ресурсов `yandex_compute_image` и `yandex_compute_instance` на отдельные переменные с префиксом `vm_web_`  ввел  команду `terraform plan` изменений нет значит замена прошла корректно
+
+![terraform plan No changes](scrin/ter_3.png)
