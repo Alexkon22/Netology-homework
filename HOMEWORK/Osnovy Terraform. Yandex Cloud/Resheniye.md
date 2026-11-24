@@ -169,7 +169,7 @@
 
 ---
 
-##  Задание 6
+### Задание 6
 <details>
 <summary><b> Текст задания </b></summary>
 
@@ -223,7 +223,6 @@
 <details>
 <summary><strong>Текст Решения  </strong></summary>
 
-### Решение 6
 
 1. Объединил переменные `cores` `memory` `core_fraction` обеих ВМ в одну переменную `vms_resources` типа `map(object)` с ключами `web` и `db` В ресурсах используется `var.vms_resources["web"]cores` 
 2. Создал общую для всех ВМ переменную `metadata` (`serial-port-enable` и `ssh-keys`) Её значение с ssh-ключом хранится в `personal.auto.tfvars` который не попадает в git В ресурсах указано `metadata = var.metadata`
@@ -236,5 +235,10 @@
 
 </details>
 
+--- 
 
+
+## Код
+
+[Ссылка на код (src)](https://github.com/Alexkon22/Netology-homework/tree/main/HOMEWORK/Osnovy%20Terraform.%20Yandex%20Cloud/src)
 
