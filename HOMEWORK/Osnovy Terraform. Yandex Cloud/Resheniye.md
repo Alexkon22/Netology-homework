@@ -218,12 +218,19 @@
 
 
 
-#### Решение 5
+#### Решение 6
 
 <details>
 <summary><strong>Текст Решения  </strong></summary>
 
+### Решение 6
 
+1. Объединил переменные `cores` `memory` `core_fraction` обеих ВМ в одну переменную `vms_resources` типа `map(object)` с ключами `web` и `db` В ресурсах используется `var.vms_resources["web"]cores` 
+2. Создал общую для всех ВМ переменную `metadata` (`serial-port-enable` и `ssh-keys`) Её значение с ssh-ключом хранится в `personal.auto.tfvars` который не попадает в git В ресурсах указано `metadata = var.metadata`
+3. Закомментировал неиспользуемые переменные: `vm_web_/vm_db_` `cores `memory` `core_fraction` `name` а также `vms_ssh_root_key`
+4. `terraform plan` показал `No changes
+
+![terraform plan](scrin/ter_7.png)
 
 
 
