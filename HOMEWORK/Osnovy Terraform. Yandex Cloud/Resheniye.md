@@ -76,7 +76,7 @@
 
 Заменил все хардкод-значения для ресурсов `yandex_compute_image` и `yandex_compute_instance` на отдельные переменные с префиксом `vm_web_`  ввел  команду `terraform plan` изменений нет значит замена прошла корректно
 
-![terraform plan No changes](scrin/ter_3.png)
+![terraform plan нет изменений](scrin/ter_3.png)
 
 </details>
 
@@ -106,4 +106,6 @@
 3. Зона `ru-central1-b` в Yandex Cloud закрыта (ошибка `Zone ru-central1-b is not available`) поэтому вторая ВМ развёрнута в зоне `ru-central1-d в этой зоне нет платформы `standard-v1` использована `standard-v3`
 4. Для второй ВМ создал отдельную подсеть `develop-db` (`10.0.2.0/24`) потому что подсеть в Yandex Cloud привязана к одной зоне.
 
-![yc compute instance list](scrin/ter_4.png)
+**Скриншот**
+
+![ВМ В Консоли](scrin/ter_4.png)
