@@ -111,3 +111,27 @@
 ![ВМ В Консоли](scrin/ter_4.png)
 
 </details>
+
+
+
+#### Задание 4
+
+<details>
+<summary><b>Текст Задания</b></summary>
+
+1. Объявите в файле `outputs.tf` **один** output, содержащий: `instance_name`, `external_ip`, `fqdn` для каждой из ВМ в удобном лично для вас формате (**без хардкода!!!**).
+2. Примените изменения.
+
+В качестве решения приложите вывод значений IP-адресов команды `terraform output`.
+
+</details>
+
+
+####  Решение 4
+
+<details>
+<summary><strong>Текст Решения 4 </strong></summary>
+
+
+
+</details>
