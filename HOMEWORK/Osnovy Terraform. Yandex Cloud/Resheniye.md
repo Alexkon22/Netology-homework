@@ -93,3 +93,17 @@
 3. Примените изменения.
 
 </details>
+
+
+
+####  Решение 3
+
+<details>
+<summary><strong>Текст Решения </strong></summary>
+
+1. Создал файл `vms_platform.tf` и перенёс в него все переменные первой ВМ (`vm_web_`).
+2. Объявил переменные второй ВМ с префиксом `vm_db_` в том же файле и добавил в `main.tf` ресурс `netology-develop-platform-db` (cores = 2, memory = 2, core_fraction = 20).
+3. Зона `ru-central1-b` в Yandex Cloud закрыта (ошибка `Zone ru-central1-b is not available`) поэтому вторая ВМ развёрнута в зоне `ru-central1-d в этой зоне нет платформы `standard-v1` использована `standard-v3`
+4. Для второй ВМ создал отдельную подсеть `develop-db` (`10.0.2.0/24`) потому что подсеть в Yandex Cloud привязана к одной зоне.
+
+![yc compute instance list](scrin/ter_4.png)
