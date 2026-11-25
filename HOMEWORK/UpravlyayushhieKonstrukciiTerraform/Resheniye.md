@@ -13,3 +13,12 @@
 </details>
 
 
+#### Решение 1
+<details>
+<summary> Скриншот Решения</summary>
+
+
+![скриншот правил](scrin/ter_1.png)
+
+
+</details>
