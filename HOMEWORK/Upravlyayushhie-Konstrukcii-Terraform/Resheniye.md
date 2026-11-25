@@ -74,7 +74,7 @@ variable "each_vm" {
 ---
 
 
-## Задание 3
+### Задание 3
 
 <details>
 <summary>Текст задания</summary>
@@ -84,7 +84,7 @@ variable "each_vm" {
 
 </details>
 
-### Решение 3
+#### Решение 3
 
 <details>
 <summary>Текст Решения </summary>
@@ -95,10 +95,13 @@ variable "each_vm" {
 ![Диски Вирт машины](scrin/ter_3.png)
 
 </details>
+
 ---
 
   
-## Задание 4
+
+
+### Задание 4
 
 <details>
 <summary>Текст задания</summary>
@@ -130,7 +133,7 @@ storage ansible_host=<внешний ip-адрес> fqdn=<полное доме�
 
 </details>
 
-### Решение 4
+#### Решение 4
 
 
 
