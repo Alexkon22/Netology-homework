@@ -92,7 +92,7 @@ variable "each_vm" {
 1. Создал `disk_vm.tf`: 3 одинаковых диска `disk-1`, `disk-2` и `disk-3` по 1 ГБ через `yandex_compute_disk` и `count`.
 2. Создал в том же файле одиночную ВМ `storage` без `count` и `for_each` Диски подключены через блок `dynamic "secondary_disk"` с `for_each = yandex_compute_disk.storage_disk`
 
-![Диски Вирт машины](scrin/ter3_3.png)
+![Диски Вирт машины](scrin/ter_3.png)
 
 ---
 
