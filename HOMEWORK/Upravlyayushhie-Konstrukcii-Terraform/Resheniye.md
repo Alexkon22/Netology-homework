@@ -94,6 +94,7 @@ variable "each_vm" {
 
 ![Диски Вирт машины](scrin/ter_3.png)
 
+</details>
 ---
 
   
