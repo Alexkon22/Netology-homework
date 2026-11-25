@@ -146,8 +146,9 @@ storage ansible_host=<внешний ip-адрес> fqdn=<полное доме�
 ![Inventory-файл hosts.cfg](scrin/ter_4.png)
 
 ---
+</details>
 
-## Код
+### Код
 
 - [Ссылка на ветку terraform-03](https://github.com/Alexkon22/Netology-homework/tree/terraform-03/HOMEWORK/Upravlyayushhie-Konstrukcii-Terraform)
 - [Ссылка на коммит](https://github.com/Alexkon22/Netology-homework/commit/72ce4aceb808f1ea562fcb1a3c37bf1256ecb630)
