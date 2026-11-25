@@ -54,7 +54,21 @@ variable "each_vm" {
 #### Решение 2
 <details>
 <summary>Текст решения </summary>
+### Решение 2
 
+1. Создал `count-vm.tf`: ВМ `web-1` и `web-2` через `count`, с группой безопасности из задания 1
+2. Создал `for_each-vm.tf`: ВМ `main` и `replica` через `for_each` и переменную `each_vm` Web создаются после них используя `depends_on`.
+3. Ключ читается через `file()` в `locals.tf` (у меня `id_ed25519.pub` вместо `id_rsa.pub`)
+
+![Созданные ВМ](scrin/ter3_2.png)
 
 </details>
+
+
+---
+
+
+
+
+
 
