@@ -135,7 +135,7 @@ storage ansible_host=<внешний ip-адрес> fqdn=<полное доме�
 
 #### Решение 4
 <details>
-<summary>Текст задания</summary>
+<summary>Текст решения</summary>
 
 
 1. Создал шаблон `hosts.tftpl` на основе demonstration2 и добавил в него группы `[databases]` и `[storage]` и переменную `fqdn`
