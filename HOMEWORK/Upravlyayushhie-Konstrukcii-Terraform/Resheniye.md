@@ -27,7 +27,7 @@
 
 ---
 
-## Задание 2
+### Задание 2
 
 <details>
 <summary>Текст задания</summary>
@@ -49,9 +49,12 @@ variable "each_vm" {
 
 </details>
 
-### Решение 2
+---
 
+#### Решение 2
+<details>
+<summary>Текст решения </summary>
 
 
 </details>
----
+
