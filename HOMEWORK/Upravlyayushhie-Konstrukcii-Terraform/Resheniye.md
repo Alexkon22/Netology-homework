@@ -134,10 +134,19 @@ storage ansible_host=<внешний ip-адрес> fqdn=<полное доме�
 </details>
 
 #### Решение 4
+<details>
+<summary>Текст задания</summary>
 
 
+1. Создал шаблон `hosts.tftpl` на основе demonstration2 и добавил в него группы `[databases]` и `[storage]` и переменную `fqdn`
+2. В `ansible.tf` через `templatefile` и `local_file` передал в шаблон 5 ВМ: `web` (count) `db` (for_each, через `values()`) и `storage`
+3. Инвентарь динамический: строки создаются циклом `%{ for }` поэтому шаблон работает с любым количеством Вирт машин
+4. `fqdn` взял из атрибута ВМ `fqdn`. Так как `hostname` не задан имя сгенерировалось автоматически в зоне `auto.internal`
+
+![Inventory-файл hosts.cfg](scrin/ter_4.png)
 
 ---
+
 
 
 
